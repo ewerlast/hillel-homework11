@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            padding: 10px;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            width: 400px;
+            border: 1px solid black;
+        }
+
+        .login-form span {
+            width: 100px;
+        }
+
+        .login-form .input-field {
+            display: flex;
+            align-items: center;
+        }
+
+        .login-form input {
+            margin-left: 10px;
+        }
+
+        .login-form button {
+            margin: 8px 0;
+        }
+
+        .error {
+            border: 1px solid red;
+        }
+
+        .blue {
+            background-color: #0000ff;
+            padding: 50px;
+        }
+
+        .yellow {
+            background-color: yellow;
+            padding: 50px;
+        }
+
+        #container {
+            padding: 25px;
+            border: 1px solid red;
+            width: 300px;
+        }
+
+        #wrapper {
+            padding: 25px;
+            border: 1px solid blue;
+        }
+
+        .users-list {
+            margin-top: 10px;
+        }
+
+        .user-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            border: 1px solid black;
+        }
+
+        .selected-user-row {
+            border-color: red;
+        }
+
+        .selected-user-info {
+            margin-top: 10px;
+            border: 1px solid red;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js" integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <button class="btn" data-id="loginButton">Вход</button>
+            <button class="btn" data-id="logoutButton">Выход</button>
+        </div>
+    </div>
+
+<!--<div class="blue">-->
+<!--    <div class="yellow"></div>-->
+<!--</div>-->
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+p {
+    font-size: 2em;
+    color: rgb(19, 233, 90);
+}
